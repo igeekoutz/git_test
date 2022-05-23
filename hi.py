@@ -1,8 +1,9 @@
-print("hello, whats good my slime")
-print("yoooo")
-for i in range(4):
-	print("Hello")
-for i in range(5):
-	hello = 1
-	if hello == 1:
-		print("Yes")
+# to test Git
+import sys
+if len(sys.argv) == 1:
+	n = 4
+else:
+	n = int(sys.argv[1])
+for i in range(n):
+	print('Hi')
+
